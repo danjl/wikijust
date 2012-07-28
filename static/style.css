@@ -143,3 +143,15 @@ span.red
 {
 	color: #DE0016;
 }
+table.footer
+{
+	width: 100%;
+}
+td.left
+{
+	text-align: left;
+}
+td.right
+{
+	text-align: right;
+}

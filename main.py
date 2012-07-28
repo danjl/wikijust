@@ -212,3 +212,4 @@ app = webapp2.WSGIApplication([('/signup', Signup),
                                (PAGE_RE, WikiPage),
                                ],
                                debug=True)
+
