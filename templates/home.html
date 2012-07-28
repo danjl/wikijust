@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
 
 	<head>
@@ -12,17 +14,19 @@
 					
 						<a href="/">Home</a> | 
 						{% if user %}
-						<a href="/welcome">{{user}}</a> (<a href="/logout">Logout</a>)
+						<a href="/welcome">{{user}}</a>  (<a href="/logout">Logout</a>)
 						{% else %}
 						<a href="/signup">Signup</a> | <a href="/login">Login</a>
 						{% endif %}
 					</td>
+					{% if title %}
+					<td class="right">
+						<a href="/_edit/{{title}}/{{version}}">edit</a> | <a href="/_history/{{title}}">history</a>
+					</td>
+					{% endif %}
 				</tr>
 			</table>
 		</div>
-
-
-
 
 		<div class="home">
 			<h1>Just a wiki.</h1>
@@ -46,12 +50,24 @@
 		</tr>
 		{% endfor %}
 		{% else %}
-		<tr><td>No pages created, yet. You should make some!<tr><td>
+		<tr><td>No pages created, yet. You should make some!</tr></td>
 		{% endif %}
 		</table>
 		<br /> <br />
-		<hr />
-		<div class="footer">A Dan Larson Project <br /> Not the politician from Wyoming</div>
+		<div class="footer">
+			<hr />
+			<table class="footer"> <tr>
+				<td class="left">
+					<a target="_blank" href="https://github.com/danjl/wikijust">Get the code!</a>
+				</td>
+				<td class="right">
+					A Dan Larson Project 
+					<br /> 
+					Not the politician from Wyoming
+				</td>
+			</table> </tr>
+		</div>
+
 	</body>
 
 </html>
