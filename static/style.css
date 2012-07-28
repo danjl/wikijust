@@ -150,8 +150,14 @@ table.footer
 td.left
 {
 	text-align: left;
+	vertical-align: top;
+}
+td.left.octocat
+{
+	width: 40px;
 }
 td.right
 {
 	text-align: right;
+	vertical-align: top;
 }
