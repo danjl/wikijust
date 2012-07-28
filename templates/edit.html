@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}edit {{title}}{% endblock %}
+{% block content %}
+<div class="title"><h1>{{title}}</h1></div>
+<span class="instructions">
+<form method="post">
+	<div class="input_container">
+		<textarea name="content" class="content">{{content}}</textarea>
+	</div>
+
+	<div class="submit">
+		<input class="edit" type="submit" />
+	</div>
+</form>
+<ul>
+	<li>To embed an image, type [Some alt text](your-image-url.jpg){: width=NUM height=NUM}</li>
+	<li>To make a link, type [link text](your-link-url.com) to get <a target="blank" href="http://www.your-link-url.com">link text</a>.
+	<li>To make big header text, type your header with equal signs underneath it.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Like this! &nbsp;&nbsp; This also works!<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;======&nbsp;&nbsp;&nbsp;&nbsp;---------------------------
+	<li>There's a lot more to markdown. Go <a target="_blank" href="http://daringfireball.net/projects/markdown/syntax">here</a> to learn more.</li>
+</ul>
+
+	{% endblock %}

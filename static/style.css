@@ -1,0 +1,145 @@
+div#header
+{
+	text-align: right;
+	color: gray;
+	font-size: small;
+	font-family: sans-serif;
+	position: relative;
+}
+div.footer
+{
+	text-align: right;
+	color: gray;
+	font-size: small;
+	font-family: sans-serif;
+}
+div.footer.edit
+{
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	right: 6px;
+}
+div#content
+{
+	position: absolute;
+	left: 160px;
+	right: 10px;
+	top: 37px;
+	bottom: 0px;
+}
+a
+{
+	color: #858585;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #4F4F4F;
+	text-decoration: none;
+}
+h1
+{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+div.title
+{
+	font-family: sans-serif;
+	text-align: left;
+}
+div.authors
+{
+	font-family: sans-serif;
+	text-align: left;
+	font-size: small;
+	color: gray;
+}
+div.input_container
+{
+	text-align: center;
+}
+div.submit
+{
+	text-align: center;
+}
+textarea.content
+{
+	width: 100%;
+	height: 500px;
+	top: 60px;
+	left: 0px;
+	right: 0px;
+	bottom: 80px;
+	resize: none;
+}
+input.edit
+{
+}
+pre.content
+{
+	border-style: none;
+	border-width: 1px;
+	border-color: gray;
+	word-wrap: break-word;
+}
+table.header
+{
+	width: 100%;
+}
+td.left
+{
+	text-align: left;
+}
+td.right 
+{
+	text-align: right;
+}
+table.home
+{
+	width: 100%;
+	text-align: center;
+}
+table.history
+{
+	font-size: 10pt;
+	border-spacing: 0px;
+	word-wrap: break-word;
+}
+td.history
+{
+	padding: 10px;
+
+}
+tr.history:nth-child(odd)
+{
+	background-color: #B5B5B5;
+}
+
+
+
+div.sidebar
+{
+	border-right-style: dashed;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color: gray;
+	text-align: left;
+	width: 134px;
+	float: left;
+	position: absolute;
+	top: 40px;
+	line-height:1.25;
+	word-wrap: break-word;
+}
+div.home
+{
+	text-align: center;
+}
+span.red
+{
+	color: #DE0016;
+}
