@@ -1,8 +1,0 @@
-{% extends "base.html" %}
-{% block title %}{{title}}{% endblock %}
-{% block content %}
-<div class="title"><h1>{{title}}</h1></div>
-<div class="authors">Created by: {{creator}} | Lasted edited by: {{last_editor}} | Version: {{version}}</div>
-<hr />
-<div class="content"><pre class="content">{{content|safe}}</pre>
-{% endblock %}
