@@ -1,5 +1,5 @@
 Wikijust
-======
+========
 ***
 A simple wiki made for Udacity CS253.
 
@@ -10,3 +10,5 @@ A simple wiki made for Udacity CS253.
 * uses markdown to format pages
 
 Feedback is appreciated.
+
+A working version can be found at [http://wikijust.appspot.com](http://wikijust.appspot.com)
