@@ -3,7 +3,7 @@ Wikijust
 ***
 A simple wiki made for Udacity CS253.
 
-* Made with the webapp2 framework via google app engine. 
+* Made for Google App Engine with the webapp2 framework.
 
 * Features user registration, session handling and caching. 
 
